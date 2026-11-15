@@ -33,34 +33,16 @@
 
 ---
 
-## 🚀 Installation & Usage
+## 📥 Download
 
-### Option 1: Run the Standalone `.exe` (Recommended)
-1. Go to the **[Releases](../../releases)** section of this repository.
-2. Download the latest `DynamicIsland.exe` build.
-3. Run the executable — no installation is required, and the widget will immediately appear at the top of your screen.
+You can download the latest compiled `.exe` version for Windows directly from the **[Releases](../../releases/latest)** page:
 
-### Option 2: Run from Source
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd your-repository-name
-   ```
+1. Open the **[Releases](../../releases/latest)** section.
+2. Under **Assets**, click on `DynamicIsland.exe` to download the file.
+3. Run the executable — no installation is required.
 
-2. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+> **Note:** Since the app is not signed with a commercial certificate, Windows Defender SmartScreen may show a warning on the first launch. Click **More info** → **Run anyway** to start the widget.
 
-3. **Configure settings (if applicable):**
-   Set your city for the weather widget and add your AI API key in the configuration file (e.g., `config.py` or `.env`).
-
-4. **Launch the application:**
-   ```bash
-   python main.py
-   ```
-
----
 
 ## 🖱️ Controls
 
