@@ -19,15 +19,15 @@
 
 | Idle Mode | Music Player |
 | :---: | :---: |
-| ![Idle Mode](idle.png) | ![Music Player](player.png) |
+| ![Idle Mode](menu.png) | ![Music Player](media player control.png) |
 
 | Clock & Time | Calendar |
 | :---: | :---: |
-| ![Clock](clock.png) | ![Calendar](calendar.png) |
+| ![Clock](time.png) | ![Calendar](calendar.png) |
 
 | Weather Forecast | AI Assistant |
 | :---: | :---: |
-| ![Weather](weather.png) | ![AI Chat](ai_chat.png) |
+| ![Weather](weather.png) | ![AI Chat](ai_agent.png) |
 
 
 *(Note: Create a `screenshots` folder in your repository and upload your images with the corresponding filenames above to display them in this table).*
