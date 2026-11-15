@@ -1,10 +1,5 @@
 # 🏝️ Dynamic Island for Windows
 
-![Python](https://shields.io)
-![Platform](https://shields.io)
-![GUI](https://shields.io)
-![License](https://shields.io)
-
 **Dynamic Island for Windows** is a lightweight, stylish, and interactive desktop widget inspired by Apple's Dynamic Island. Positioned at the top of your screen as an always-on-top overlay, it combines media controls, essential system widgets, and a built-in AI character assistant in one sleek capsule.
 
 ---
