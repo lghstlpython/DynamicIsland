@@ -27,7 +27,7 @@
 
 | Weather Forecast | AI Assistant |
 | :---: | :---: |
-| ![Weather](screenshots/weather.png) | ![AI Chat](screenshots/ai_chat.png) |
+| ![Weather](screenshots/weather.png) | ![AI Chat](screenshots/ai_agent.png) |
 
 *(Note: Create a `screenshots` folder in your repository and upload your images with the corresponding filenames above to display them in this table).*
 
