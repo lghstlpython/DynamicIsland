@@ -23,7 +23,7 @@
 
 | Clock & Time | Calendar |
 | :---: | :---: |
-| ![Clock](screenshots/clock.png) | ![Calendar](screenshots/calendar.png) |
+| ![Clock](screenshots/time.png) | ![Calendar](screenshots/calendar.png) |
 
 | Weather Forecast | AI Assistant |
 | :---: | :---: |
