@@ -1,91 +1,89 @@
-# Название вашего проекта
+# 🏝️ Dynamic Island for Windows
 
-Краткое и понятное описание того, что делает ваша программа или проект. Укажите главную пользу для пользователя в 1–2 предложениях.
+![Python](https://shields.io)
+![Platform](https://shields.io)
+![GUI](https://shields.io)
+![License](https://shields.io)
 
-![Версия](https://shields.io)
-![Лицензия](https://shields.io)
-![Платформа](https://shields.io)
-
----
-
-## 📋 Оглавление
-- [Основные возможности](#-основные-возможности)
-- [Скриншоты](#-скриншоты)
-- [Установка и запуск](#-установка-и-запуск)
-- [Сборка из исходного кода](#-сборка-из-исходного-кода)
-- [Структура проекта](#-структура-проекта)
-- [Лицензия](#-лицензия)
+**Dynamic Island for Windows** is a lightweight, stylish, and interactive desktop widget inspired by Apple's Dynamic Island. Positioned at the top of your screen as an always-on-top overlay, it combines media controls, essential system widgets, and a built-in AI character assistant in one sleek capsule.
 
 ---
 
-## ✨ Основные возможности
-* **Функция 1** — краткое описание того, как это работает.
-* **Функция 2** — еще одна важная особенность вашего приложения.
-* **Простая установка** — готовый инсталлятор для Windows.
+## ✨ Key Features
+
+* 👀 **Dynamic Idle Capsule:** When collapsed, the widget shrinks into a compact black pill with animated eyes that acts as a non-intrusive desktop companion.
+* 🎵 **Media Player Control:** Seamless integration with Spotify and Windows system media players — control playback (play/pause, next/previous track), view album art, and track progress.
+* 🕒 **Hybrid Clock:** Features a large digital clock with highlighted seconds alongside a classic analog clock face and the current date.
+* 📅 **Interactive Calendar:** A clean monthly grid view with the current day highlighted for quick date checks.
+* 🌤️ **Real-Time Weather:** Displays current temperature, weather conditions, wind speed, and a 3-day forecast for your location.
+* 🤖 **Built-in AI Companion:** An integrated AI chat assistant featuring a custom anime character avatar, allowing you to ask questions and chat without minimizing your active windows or games.
 
 ---
 
-## 📸 Скриншоты
-> *Замените ссылки ниже на реальные скриншоты интерфейса вашей программы.*
+## 📸 Screenshots
 
-![Главное окно](https://placeholder.com)
+| Idle Mode | Music Player |
+| :---: | :---: |
+| ![Idle Mode](screenshots/idle.png) | ![Music Player](screenshots/player.png) |
 
----
+| Clock & Time | Calendar |
+| :---: | :---: |
+| ![Clock](screenshots/clock.png) | ![Calendar](screenshots/calendar.png) |
 
-## 🚀 Установка и запуск
+| Weather Forecast | AI Assistant |
+| :---: | :---: |
+| ![Weather](screenshots/weather.png) | ![AI Chat](screenshots/ai_chat.png) |
 
-### Для обычных пользователей (через установщик)
-1. Перейдите в раздел **[Releases](../../releases)**.
-2. Скачайте последнюю версию файла `Setup.exe`.
-3. Запустите установщик и следуйте инструкциям мастера установки.
-
-### Для разработчиков (локальный запуск)
-Клонируйте репозиторий на свой компьютер:
-```bash
-git clone https://github.com
-cd название-репозитория
-```
-
-Установите необходимые зависимости:
-```bash
-# Пример для Python / Node.js / .NET (замените на вашу команду)
-pip install -r requirements.txt
-```
-
-Запустите проект:
-```bash
-python main.py
-```
+*(Note: Create a `screenshots` folder in your repository and upload your images with the corresponding filenames above to display them in this table).*
 
 ---
 
-## 📦 Сборка из исходного кода
-Если вы хотите самостоятельно собрать проект и создать установщик:
+## 🚀 Installation & Usage
 
-1. Скомпилируйте исполняемый файл проекта (`.exe`).
-2. Откройте файл скрипта `installer.iss` в программе **[Inno Setup](https://jrsoftware.org)**.
-3. Нажмите `Build -> Compile` (или клавишу `F9`), чтобы получить готовый `Setup.exe` в папке `Output`.
+### Option 1: Run the Standalone `.exe` (Recommended)
+1. Go to the **[Releases](../../releases)** section of this repository.
+2. Download the latest `DynamicIsland.exe` build.
+3. Run the executable — no installation is required, and the widget will immediately appear at the top of your screen.
+
+### Option 2: Run from Source
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd your-repository-name
+   ```
+
+2. **Install the required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure settings (if applicable):**
+   Set your city for the weather widget and add your AI API key in the configuration file (e.g., `config.py` or `.env`).
+
+4. **Launch the application:**
+   ```bash
+   python main.py
+   ```
 
 ---
 
-## 📂 Структура проекта
-```text
-├── src/                # Исходный код программы
-├── assets/             # Иконки, изображения и ресурсы
-├── installer/          # Скрипты для сборки установщика (Inno Setup)
-├── README.md           # Документация проекта
-└── LICENSE             # Файл лицензии
-```
+## 🖱️ Controls
+
+* **Hover / Click on Capsule:** Expands the compact pill into the full widget view.
+* **Switch Tabs:** Use the navigation dots on the right side of the widget (or scroll with your mouse wheel) to switch between the Media Player, Clock, Calendar, Weather, and AI Chat.
+* **Collapse:** Click anywhere outside the widget to return it to the compact idle mode.
 
 ---
 
-## 📄 Лицензия
-Этот проект распространяется под лицензией **MIT**. Подробности смотрите в файле [LICENSE](LICENSE).
+## 🛠️ Tech Stack
+
+* **Language:** Python 3
+* **GUI Framework:** Tkinter / CustomTkinter
+* **System Integration:** Windows Media Control API (`winsdk` / `pycaw`)
+* **Packaging:** PyInstaller
 
 ---
 
-## 📬 Контакты
-Если у вас есть вопросы или предложения, свяжитесь со мной:
-* **Telegram:** [@ваш_ник](https://t.me)
-* **Email:** example@mail.com
+## 📄 License
 
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute this software with proper attribution.
