@@ -29,7 +29,6 @@
 | :---: | :---: |
 | ![Weather](screenshots/weather.png) | ![AI Chat](screenshots/ai.png) |
 
-*(Note: Create a `screenshots` folder in your repository and upload your images with the corresponding filenames above to display them in this table).*
 
 ---
 
@@ -41,7 +40,7 @@ You can download the latest compiled `.exe` version for Windows directly from th
 2. Under **Assets**, click on `Dynamiclsland-Setup.exe` to download the file.
 3. Run the executable — no installation is required.
 
-> **Note:** Since the app is not signed with a commercial certificate, Windows Defender SmartScreen may show a warning on the first launch. Click **More info** → **Run anyway** to start the widget.
+
 
 
 ## 🖱️ Controls
