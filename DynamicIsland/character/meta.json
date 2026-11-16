@@ -1,0 +1,11 @@
+{
+  "frames": 40,
+  "loop_seconds": 4.0,
+  "width": 328,
+  "height": 584,
+  "mouth_x": 146,
+  "mouth_y": 173,
+  "patch_w": 44,
+  "patch_h": 30,
+  "mouth_states": 5
+}
