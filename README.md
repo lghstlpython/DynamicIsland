@@ -19,7 +19,7 @@
 
 | Idle Mode | Music Player |
 | :---: | :---: |
-| ![Idle Mode](screenshots/menu.png) | ![Music Player](screenshots/music.png) |
+| ![Island](screenshots/menu.png) | ![Music Player](screenshots/music.png) |
 
 | Clock & Time | Calendar |
 | :---: | :---: |
